@@ -101,7 +101,6 @@ executor:
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
   max_paper_num: ${oc.env:MAX_PAPER_NUM,100}
-  send_empty: ${oc.env:SEND_EMPTY,false}
 ```
 Set `source.arxiv.include_cross_list: true` if you want cross-listed papers included.
 >[!NOTE]
