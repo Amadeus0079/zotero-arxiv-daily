@@ -24,3 +24,5 @@ source:
 executor:
   debug: ${oc.env:DEBUG,null}
   source: ['arxiv']
+  max_paper_num: ${oc.env:MAX_PAPER_NUM,100}
+  send_empty: ${oc.env:SEND_EMPTY,false}
